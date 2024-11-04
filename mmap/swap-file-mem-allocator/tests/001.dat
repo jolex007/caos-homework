@@ -1,0 +1,10 @@
+initialize file.swp 1050
+malloc 0 1000 OK
+fill 0 1000 a
+ensure 0 1000 a
+malloc 1 200 ERROR
+ensure 0 1000 a
+free 0
+malloc 2 1010 OK
+free 2
+finalize
