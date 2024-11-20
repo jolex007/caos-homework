@@ -2,7 +2,7 @@
 
 Реализуйте функцию на языке ассемблера x86-64 с сигнатурой:
 ```
-extern void summ(int N, const int *A, const int *B, int *R);
+extern void sum(int N, const int *A, const int *B, int *R);
 ```
 Функция вычисляет значения $R_i = A_i + B_i$ для всех $0 <= i < N$.
 
